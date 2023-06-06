@@ -1,0 +1,38 @@
+.auto-suggestion-container {
+  position: relative;
+  display: inline-block;
+  width: 300px;
+  text-align: left;
+}
+
+.auto-suggestion-input {
+  width: inherit;
+  border: none;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.auto-suggestion-list {
+  position: absolute;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f9f9f9;
+  border: 1px solid black;
+  color: black;
+  overflow-y: auto;
+  max-height: 150px;
+  width: 320px;
+  overflow-x: hidden;
+}
+
+.auto-suggestion-list li {
+  cursor: pointer;
+  padding: 10px;
+  width: inherit;
+  font-size: 16px;
+}
+
+.highlighted {
+    background-color:lightskyblue
+}
